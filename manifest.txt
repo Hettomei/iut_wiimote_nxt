@@ -1,0 +1,2 @@
+Main-Class: Start
+Class-Path: lib/bluecove-2.1.0.jar lib/bluecove-gpl-2.1.0.jar lib/classes.jar lib/jtools.jar lib/pccomm.jar lib/pctools.jar lib/WiiRemoteJ.jar
