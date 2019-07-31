@@ -21,6 +21,9 @@ Utilisation d'une Wiimote pour contrôler une brique NXT à travers internet
 
 Notre projet consiste à développer une application afin de commander un robot fabriqué en brique Lego Nxt en passant par internet avec une Wiimote. Le langage de programmation utilisé est le JAVA.
 
+![presentation brick nxt](screenshots/title.png)
+
+
 
 ## Table des matières
 
@@ -145,23 +148,24 @@ Fenetre et Wiimote01 ou seulement Serveur_Brick.
 #### b) Choix.class..
 
 Contient une interface graphique permettant de sélectionner le rôle du pc: s'il sera le pc connecté à
-
 la brique ou bien celui connecté à la Wiimote.
 
+![choix](screenshots/choix.png)
+
 Si l'ordinateur est connecté à la Wiimote, il faut régler le port et l'adresse Ip d'envoie au serveur.
+
+![choix2](screenshots/choix2.png)
 
 Si l'ordinateur est connecté du côté de la brique, il faut régler le port d'écoute.
 
 L'adresse ip et le port doivent donc être identique côté brique et côté Wiimote.
 
 Ensuite il faut cliquer sur démarrer, la visualisation du serveur se fait dans un terminal
-
 (il faut donc exécuter le programme comme cela : java -jar Wiimote_internet_NXT.jar)
 
 Pour le programme qui gère la Wiimote, une fenêtre de contrôle s'ouvre.
 
 Illustration 2 : Fenêtre principale obtenue au lancement du
-
 programme, il faut sélectionner la fonction de l'ordinateur
 
 Illustration 3 : côté Wiimote sélectionné Illustration 4 : côté Brique NXT sélectionné
@@ -190,10 +194,9 @@ la méthode « conversion » permet de traduire les ordres chiffrés en mots cla
 
 #### d) Fenetre.class
 
-Description de la classe
+![Fenetre principale](screenshots/fenetre.png)
 
-Cette classe permet d'avoir une vue des données reçues par la wiimote ainsi que les actions envoyés
-
+Cette classe permet d'avoir une vue des données reçues par la wiimote ainsi que les actions envoyés 
 sur internet.
 
 Elle charge la classe « Ir » qui permet d'avoir un Jpanel montrant l'emplacement de la lumière
@@ -427,6 +430,8 @@ Il implémente le même fichier « Constantes » afin de traduire facilement les
 
 
 ## V Description des commandes de la Wiimote
+
+![Wiimote](screenshots/wiimote.png)
 
 Note: Plus le délai entre 2 informations transmises est petit, plus la transmission par bluetooth est
 
